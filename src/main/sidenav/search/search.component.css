@@ -26,6 +26,17 @@
   color: #666;
   font-size: 1.2rem;
 }
+
 .input-container > input:focus {
   outline: none;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 2rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem;
 }
