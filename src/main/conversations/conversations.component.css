@@ -2,21 +2,32 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 43rem;
-  border-right: 2px solid #ccc;
+  /* margin-top: 0.5rem; */
+  height: 43.8rem;
+  background-color: red;
 }
-.header {
-  height: 3.4rem;
-  background-color: rgb(255, 0, 0);
+.con-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 100%;
+  background-color: green;
 }
-.body {
-  width: auto;
+.msg-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 36rem;
-  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/461/478/desktop-wallpaper-whatsapp-dark-whatsapp-chat.jpg');
+  width: 100%;
   background-color: #ccc;
 }
 .footer {
   display: flex;
-  height: 2rem;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  height: 4.2rem;
+  width: 100%;
+  background-color: blue;
 }
