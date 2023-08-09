@@ -1,4 +1,4 @@
-.container {
+.container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -7,17 +7,21 @@
   background-color: #f0f2f5;
   width: 100%;
 }
-.smiley {
+
+.smiley{
+  width: 3rem;
+  height: 3rem;
+  padding: 0.6rem;
+  
+}
+
+.plus{
   width: 3rem;
   height: 3rem;
   padding: 0.6rem;
 }
-.plus {
-  width: 3rem;
-  height: 3rem;
-  padding: 0.6rem;
-}
-.message {
+
+.message{
   width: 48rem;
   height: 3rem;
   display: flex;
@@ -25,19 +29,24 @@
   align-content: center;
   border-radius: 10px;
   padding-left: 2rem;
+
 }
-.message > input {
-  border-radius: 10px;
+
+.message > input{
   border-color: transparent;
+  border-radius: 10px;
   font-size: 1.2rem;
   color: #888;
   background-color: white;
 }
-.message > input:focus {
+
+.message > input:focus{
   outline: none;
 }
-.speaker {
+
+.speaker{
   width: 3rem;
   height: 3rem;
   padding: 0.6rem;
 }
+

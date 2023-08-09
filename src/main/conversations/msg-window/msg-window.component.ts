@@ -6,7 +6,7 @@ import { MessageComponent } from './message/message.component';
   selector: 'app-msg-window',
   templateUrl: './msg-window.component.html',
   styleUrls: ['./msg-window.component.css'],
-  imports:[MessageComponent],
+  imports:[MessageComponent]
 })
 export class MsgWindowComponent implements OnInit {
 
